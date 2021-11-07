@@ -4,64 +4,64 @@
         <meta charset="UTF-8" />
         <title>Mia Pagina</title>
         <link rel="icon" type="image/png" href="res/images/mirku.png" />
+        <link rel="stylesheet" href="css/style1.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
     </head>
     <body>
-        <div id="top"></div>
-
-        <header>
-            ciao
+        <header class="container">
+            <div class="row">
+                <div class="col-12 parent_center" id="header">
+                    <h1>Photo Gallery</h1>
+                </div>
+            </div>
         </header>
 
-        <main>
-            <p>sono nel main</p>
-            <img src="res/images/mirku.png" alt="logo di catania" width="10%" title="logo di catania">
-            <br>
-
-            <h4>Vai a</h4>
-            <li><a href="#carta" target="_blank">Carta</a></li>
-            <li><a href="#plastica" target="_self">Plastica</a></li>
-            <li><a href="#video">Video</a></li>
-            <li><a href="#audio">Audio</a></li>
-            <li><a href="#table">Tabella</a></li>
-            <br>
-
-            <div id="carta"></div>
-                <h2>Carta</h2>
-                <p>La carta è un tipo di materiale,<br>
-                    si fanno fogli su cui disegnare</p>
-                <br>
-
-            <div id="plastica"></div>
-                <h2>Plastica</h2>
-                <p>La plastica è un altro tipo di materiale, <br>
-                    è riciclabile ma inquinante</p>
-                <br>
-
-            <div id="video"></div>
-                <h2>1700s original footage</h2>
-                <video src="res/videos/beethoven.mp4" controls>Mi dispiace tu non possa beneficiare dei piaceri della vita</video>
-                <br>
-
-            <div id="audio"></div> 
-                <h2>Audio</h2>
-                <audio src="res/audios/konga.mp3" loop>shake your body</audio>
-                <br>
-
-            <div id="table"></div>
-                <h2>Tabella</h2>
-                <table>
-                    <tr><th>Colonna 1</th><th>Colonna2</th></tr>
-                    <tr><td>Elemento 1</td><td>Elemento 2</td></tr>
-                    <tr><td>Elemento 3</td><td>Elemento 4</td></tr>
-                </table>
-                <br>
-                
+        <main class="container">
+            <div class="row" style="margin: 10vh 0">
+                <div class="col-sx-12 col-md-6 col-lg-3 galleria">
+                    <img
+                        class="img-fluid"
+                        src="res/images/mirku6.jpeg"
+                        alt="close up di mirku"
+                        title="close up di mirku"
+                    />
+                </div>
+                <div class="col-sx-12 col-md-6 col-lg-3 galleria">
+                    <img
+                        class="img-fluid"
+                        src="res/images/mirku3.jpeg"
+                        alt="mirku chiocciola"
+                        title="mirku chiocciola"
+                    />
+                </div>
+                <div class="col-sx-12 col-md-6 col-lg-3 galleria">
+                    <img
+                        class="img-fluid"
+                        src="res/images/mirku4.jpeg"
+                        alt="mirku monaco"
+                        title="mirku monaco"
+                    />
+                </div>
+                <div class="col-sx-12 col-md-6 col-lg-3 galleria">
+                    <img
+                        class="img-fluid"
+                        src="res/images/mirku5.jpeg"
+                        alt="mirku sul prato"
+                        title="mirku sul prato"
+                    />
+                </div>
+            </div>
         </main>
 
-        <footer>
-            <p>sono nel footer</p>
-            <a href="#top">Torna su</a>
+        <footer class="container">
+            <div class="row">
+                <div class="col-12 parent_center" id="footer">by Simone</div>
+            </div>
         </footer>
-        
     </body>
 </html>

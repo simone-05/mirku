@@ -1,0 +1,25 @@
+.parent_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    height: 20vh;
+    margin: 2vh 0;
+}
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    height: 10vh;
+    margin: 2vh 0;
+}
+
+.galleria {
+    margin: 8vh 0;
+}
